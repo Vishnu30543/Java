@@ -1,0 +1,5 @@
+stock_1 : Only 1 transaction
+stock_2 : Infinite transaction
+stock_3 : 2 transactions
+stock_4 : k transaction
+stock_cooldown : Infinte transaction with Cooling period as next day
