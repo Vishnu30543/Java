@@ -1,0 +1,9 @@
+1) Rotate 90 AC = Rotate 180 C
+2) Rotate 180 AC = Rotate 180 C
+3) Rotate 270 AC = Rotate 90 C
+
+Clockwise :
+
+Rotate 90   => Transpose + ReverseRows
+Rotate 180  => ReverseRows + ReverseColoumns | ReverseColoumns + ReverseRows
+Rotate 270  => Transpose + ReverseColoumns

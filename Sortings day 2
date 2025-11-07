@@ -1,0 +1,10 @@
+1) Selection sort :         -> O(n^2) - All cases
+    Find Min. element and put it at first       
+2) Bubble Sort :            -> O(n) - Best,     o(n^2)  - Worst
+    Push the Max to the last by adjacent swaps
+3) Insertion Sort :         -> O(n) - Best,     o(n^2)  - Worst
+    Take and element and place it in Correct order
+4) Merge Sort :             -> O(nlogn) - All cases     SC - O(n) - For temp array
+    Divide and Merge
+5) Quick Sort :             -> O(nlogn) - All cases     SC - O(1)
+    Divide and Conquer
