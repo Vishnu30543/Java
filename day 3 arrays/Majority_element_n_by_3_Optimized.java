@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Majority_element_n_by_3_Optimized {
+public class Majority_element_n_by_3_Optimized {    // Boyer–Moore Majority Vote (extended for n/3) algorithm
     public static void main(String[] args) {
         int a[] = {2,2,1,1,1,2,2};
         System.out.println(Arrays.toString(find(a)));
