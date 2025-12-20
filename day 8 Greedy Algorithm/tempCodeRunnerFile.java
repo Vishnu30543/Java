@@ -1,0 +1,1 @@
+((double)i.value/i.weight)*capacityleft
