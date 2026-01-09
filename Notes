@@ -22,3 +22,13 @@ for(Map.Entry<Integer, Integer> i : mp.entrySet()){
 Map Increment count [freq of elements] :
             mp.put(sum, mp.getOrDefault(sum, 0)+1);
 
+
+Print List<List<String>> :
+
+List<List<String>> ans = solveNQueens(4);
+        for(List<String> board : ans){
+            for(String row : board){
+                System.out.println(row);
+            }
+            System.out.println();
+        }
