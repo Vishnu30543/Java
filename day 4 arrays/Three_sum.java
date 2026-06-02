@@ -18,12 +18,12 @@ public class Three_sum {
                 if(sum == 0){
                     ans.add(Arrays.asList(a[i],a[j],a[k]));
                     j++; k--;
-                    while(j > k && a[j] == a[j-1]) j++;
-                    while(j > k && a[k] == a[k+1]) k--;
+                    while(j < k && a[j] == a[j-1]) j++;
+                    while(j < k && a[k] == a[k+1]) k--;
                 }
-                if(sum < 0)
+                else if(sum < 0)
                     j++;
-                if(sum > 0)
+                else                // (sum > 0)
                     k--;
             }
         }

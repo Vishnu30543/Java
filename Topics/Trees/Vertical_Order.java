@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Bst{              // TC : SC : O(n)
+class Bst{              // TC : O(nlogn) , SC : O(n)
     int data;
     Bst right, left;
 
@@ -72,7 +72,8 @@ class Tuple{
         col = c;
     }
 }
-
+// (node.val, vertical position, horizontal position)
+// Can also be done in other traversals also Pre, Post etc not only level-order.
 public class Vertical_Order {
     public static void main(String[] args) {
         Bst root = null;
