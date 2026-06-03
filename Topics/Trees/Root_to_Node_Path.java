@@ -2,6 +2,7 @@ import java.util.*;
 
 // In Binary Tree.
 // TC : O(n)  SC : O(H)
+// Done in IN-order, harder in pre and post orders
 
 class Bst{
     int val;
