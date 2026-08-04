@@ -32,3 +32,8 @@ List<List<String>> ans = solveNQueens(4);
             }
             System.out.println();
         }
+
+
+Add numbers in List while Initialization:
+
+List<Integer> numbers = new ArrayList<>(List.of(5, 3, 9, 1));
